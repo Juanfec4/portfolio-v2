@@ -29,7 +29,7 @@ const Skills: FC = () => {
             <Skill text="Express.js" imgFile="express.svg" invert={true} />
             <Skill text="MongoDB" imgFile="mongo.svg" />
             <Skill text="MySQL" imgFile="mysql.svg" />
-            <Skill text="Knex.js" imgFile="Knex.svg" />
+            <Skill text="Knex.js" imgFile="knex.svg" />
             <Skill text="Spring" imgFile="spring.svg" />
           </div>
           <Subtitle text="Languages & Tools" />
