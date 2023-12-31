@@ -3,6 +3,7 @@ import { FC, ReactNode } from "react";
 export enum ParagraphType {
   Regular,
   Accent,
+  Black,
 }
 
 //Paragraph props
@@ -23,7 +24,7 @@ const Paragraph: FC<ParagraphProps> = ({
       return (
         <p
           className={
-            "max-w-[50ch] md:max-w-[60ch] text-stone-500 md:text-lg mb-4 indent-8"
+            "max-w-[50ch] md:max-w-[60ch] text-stone-400 md:text-lg mb-4 indent-8"
           }
         >
           {children}
@@ -32,7 +33,27 @@ const Paragraph: FC<ParagraphProps> = ({
     return (
       <p
         className={
-          "max-w-[50ch] md:max-w-[60ch] text-stone-500 md:text-lg my-4"
+          "max-w-[50ch] md:max-w-[60ch] text-stone-400 md:text-lg my-4"
+        }
+      >
+        {children}
+      </p>
+    );
+  } else if (type === ParagraphType.Black) {
+    if (indent)
+      return (
+        <p
+          className={
+            "max-w-[50ch] md:max-w-[60ch] text-stone-900 md:text-lg mb-4 indent-8 text-wrap"
+          }
+        >
+          {children}
+        </p>
+      );
+    return (
+      <p
+        className={
+          "max-w-[50ch] md:max-w-[60ch] text-stone-900 md:text-lg my-4"
         }
       >
         {children}

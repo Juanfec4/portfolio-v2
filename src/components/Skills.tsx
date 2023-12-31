@@ -6,7 +6,10 @@ import Title from "./Title";
 
 const Skills: FC = () => {
   return (
-    <section className="bg-stone-900 flex flex-col items-center" id="skills">
+    <section
+      className="bg-stone-950 flex flex-col items-center rounded-md mt-32"
+      id="skills"
+    >
       <div className="max-w-4xl w-screen px-6 sm:px-16 py-6  text-white-mimosa">
         <Line />
         <Title text="SKILLS" />

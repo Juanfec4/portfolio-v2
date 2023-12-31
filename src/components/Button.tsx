@@ -89,7 +89,7 @@ const Button: FC<ButtonProps> = ({
         href={link}
         role="button"
         target="_blank"
-        className="w-12 h-12 bg-orange-400 flex rounded-md items-center justify-center hover:text-stone-900 hover:bg-white-mimosa transition duration-200"
+        className="w-12 h-12 bg-white-mimosa flex rounded-md items-center justify-center text-stone-900 hover:bg-orange-400 hover:text-white-mimosa transition duration-200"
       >
         {Icon && <Icon className="h-6 w-6" />}
       </a>

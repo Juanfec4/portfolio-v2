@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className="bg-stone-900 text-stone-200 dot-background overflow-x-hidden"
+      className="bg-stone-950 text-stone-200 dot-background overflow-x-hidden"
     >
       <body className={outfit.className}>{children}</body>
     </html>

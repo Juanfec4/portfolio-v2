@@ -41,7 +41,7 @@ const Navbar: FC<NavbarProps> = ({ links }) => {
   );
 
   return (
-    <nav className="bg-stone-900 p-6 sticky top-0 z-50 border-b hidden md:block">
+    <nav className="bg-stone-950 p-6 sticky top-0 z-50 border-b hidden md:block transition duration-200">
       <ul className="flex gap-6 items-center justify-center">
         {links.map((link, index) => {
           return (

@@ -1,5 +1,5 @@
 import { FC } from "react";
-import Paragraph from "./Paragraph";
+import Paragraph, { ParagraphType } from "./Paragraph";
 
 interface WorkElementProps {
   title: string;
@@ -26,7 +26,7 @@ const WorkElement: FC<WorkElementProps> = ({
           return (
             <li className="text-orange-400 flex items-center gap-2" key={index}>
               <p className="text-3xl">&#8227;</p>
-              <Paragraph>{bullet}</Paragraph>
+              <Paragraph type={ParagraphType.Accent}>{bullet}</Paragraph>
             </li>
           );
         })}

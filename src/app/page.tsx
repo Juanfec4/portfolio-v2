@@ -22,7 +22,7 @@ const Home: FC = () => {
       <WorkExperience />
       <Skills />
       <Contact />
-      <footer className="bg-stone-900 text-center p-6">
+      <footer className="bg-stone-950 text-center p-6">
         ©2023 JUAN CARDENAS
       </footer>
     </main>

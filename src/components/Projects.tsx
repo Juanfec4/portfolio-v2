@@ -6,7 +6,7 @@ import Title from "./Title";
 const Projects: FC = () => {
   return (
     <section
-      className="bg-stone-900 p-6 sm:px-16 py-6 rounded-md"
+      className="bg-stone-950 p-6 sm:px-16 py-6 rounded-md"
       id="projects"
     >
       <Line />

@@ -17,7 +17,7 @@ const WorkExperience: FC = () => {
 
   return (
     <section
-      className="px-6 sm:px-16 rounded-md bg-stone-900 pt-16"
+      className="px-6 sm:px-16 rounded-md bg-stone-950 pt-16"
       id="experience"
     >
       <Line />
