@@ -6,14 +6,11 @@ import Title from "./Title";
 
 const Skills: FC = () => {
   return (
-    <section
-      className="bg-stone-900 -mx-[50%] flex flex-col items-center"
-      id="skills"
-    >
+    <section className="bg-stone-900 flex flex-col items-center" id="skills">
       <div className="max-w-4xl w-screen px-6 sm:px-16 py-6  text-white-mimosa">
         <Line />
         <Title text="SKILLS" />
-        <div className="max-w-max mx-auto">
+        <div className="">
           <Subtitle text="Front-end" />
           <div className="flex py-6 gap-6 w-full flex-wrap">
             <Skill text="React" imgFile="react.svg" />

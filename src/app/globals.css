@@ -12,3 +12,7 @@
 ::selection {
   @apply bg-orange-400/40;
 }
+
+/* * {
+  outline: 1px solid #f00 !important;
+} */

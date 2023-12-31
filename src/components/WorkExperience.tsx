@@ -44,7 +44,7 @@ const WorkExperience: FC = () => {
             );
           })}
         </ul>
-        <div className="col-start-1 col-end-13 md:col-start-5 max-w-sm md:max-w-md">
+        <div className="col-start-1 col-end-13 md:col-start-5 md:max-w-md w-full overflow-y-scroll">
           {selected === options[0] && (
             <WorkElement
               title="Software Engineer Research Assistant"
