@@ -10,7 +10,7 @@ const Skills: FC = () => {
       <div className="max-w-4xl w-screen px-6 sm:px-16 py-6  text-white-mimosa">
         <Line />
         <Title text="SKILLS" />
-        <div className="">
+        <div>
           <Subtitle text="Front-end" />
           <div className="flex py-6 gap-6 w-full flex-wrap">
             <Skill text="React" imgFile="react.svg" />

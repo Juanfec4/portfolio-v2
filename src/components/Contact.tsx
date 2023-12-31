@@ -10,8 +10,8 @@ import Paragraph, { ParagraphType } from "./Paragraph";
 const paytoneOne = Paytone_One({ subsets: ["latin"], weight: "400" });
 const Contact: FC = () => {
   return (
-    <section id="contact" className="p-16 my-16">
-      <div className="w-full bg-white-mimosa rounded-md p-6">
+    <section id="contact" className="md:px-16 py-16 my-24">
+      <div className="w-full bg-white-mimosa md:rounded-md p-6">
         <h2
           className={
             "text-stone-900 text-3xl text-center" + " " + paytoneOne.className
