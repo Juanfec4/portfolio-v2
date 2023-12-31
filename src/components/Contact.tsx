@@ -45,7 +45,7 @@ const Contact: FC = () => {
           <Button
             as="a"
             text="Resume"
-            link={process.env.NEXT_PUBLIC_SITE_URL + "/files/resume.pdf"}
+            link={"./files/resume.pdf"}
             type={ButtonType.Inverted}
           />
         </div>
