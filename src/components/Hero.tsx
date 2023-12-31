@@ -41,7 +41,7 @@ const Hero: FC = () => {
               type={ButtonType.Secondary}
               text="Resume"
               as="a"
-              link={process.env.NEXT_PUBLIC_SITE_URL + "/files/resume.pdf"}
+              link={"./files/resume.pdf"}
             />
           </div>
         </div>
