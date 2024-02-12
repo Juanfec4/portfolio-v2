@@ -9,16 +9,9 @@ export const metadata: Metadata = {
   description: "Software Engineer portfolio",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html
-      lang="en"
-      className="bg-stone-900 text-stone-200 dot-background overflow-x-hidden"
-    >
+    <html lang="en" className="bg-stone-900 text-stone-200 dot-background overflow-x-hidden">
       <body className={outfit.className}>{children}</body>
     </html>
   );
