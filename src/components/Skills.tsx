@@ -33,8 +33,10 @@ const Skills: FC = () => {
           <div className="flex py-6 gap-6 w-full flex-wrap">
             <Skill text="JavaScript" imgFile="javascript.svg" />
             <Skill text="TypeScript" imgFile="typescript.svg" />
+            <Skill text="Go" imgFile="golang.svg" />
             <Skill text="Java" imgFile="java.svg" />
             <Skill text="Git" imgFile="git.svg" />
+            <Skill text="Docker" imgFile="docker.svg" />
           </div>
         </div>
       </div>
